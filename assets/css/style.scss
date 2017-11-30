@@ -1,0 +1,16 @@
+@import "libs/variables";
+@import "libs/mixins";
+@import "libs/fonts";
+
+@import "libs/import/font-awesome";
+@import "libs/import/slick";
+@import "libs/import/slick-theme";
+@import "libs/import/select2";
+@import "libs/import/datepicker";
+
+@import "components/header";
+@import "components/footer";
+
+@import "pages/global";
+@import "pages/home";
+@import "pages/main";

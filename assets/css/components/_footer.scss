@@ -1,0 +1,33 @@
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+
+  @media screen and (max-width: 800px){
+    padding: 10px 50px 10px 20px;
+  }
+
+  .logo-holder{
+    margin: 0 auto -30px;
+    height: 30px;
+
+    a{
+      color: $color-main;
+
+    }
+  }
+
+  .logo{
+    position: relative;
+    left: 0;
+  }
+
+  .social{
+    a{
+      display: inline-block;
+      margin: 0 5px;
+      color: $color-second;
+    }
+  }
+
+}

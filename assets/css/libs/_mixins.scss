@@ -1,0 +1,24 @@
+@mixin placeholder($color, $transform) {
+  &::-moz-placeholder {
+    color: $color;
+    text-transform: $transform;
+    opacity: 1;
+    font-size: inherit;
+  }
+  &:-ms-input-placeholder {
+    color: $color;
+    text-transform: $transform;
+  }
+  &::-webkit-input-placeholder {
+    color: $color;
+    text-transform: $transform;
+  }
+  &:-moz-placeholder {
+    color: $color;
+    text-transform: $transform;
+  }
+  &.placeholder {
+    color: $color;
+    text-transform: $transform;
+  }
+}

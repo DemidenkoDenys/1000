@@ -1,0 +1,16 @@
+main{
+	position: relative;
+	height: 100vh;
+}
+
+#throw{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#result{
+	line-height: 50px;
+	text-align: center;
+}
